@@ -1,0 +1,110 @@
+body {
+  font-family: 'Arial';
+  background-color: #2A2F35;
+}
+
+.card {
+  width: 50%;
+  min-height: 70%;
+  margin: 50px auto;
+  background-color: #ffffff;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.row {
+  display: flex;
+  justify-content: space-around;
+  margin: 20px 0;
+}
+
+tr {
+  border-bottom: 1px solid lightgray;
+  width: 90%;
+}
+th, td {
+   font-size: 18px;
+   height: 30px;
+}
+
+.table {
+  display: flex;
+  flex-direction: column;
+  margin-left: 20px;
+}
+
+.title {
+  background-color: #E8ECEC;
+  color: #2A2F35;
+  text-align: center;
+  border-radius: 10px;
+  margin: 0;
+  padding: 6px;
+}
+
+.button {
+  background-color: rgb(155, 138, 138);
+  color: black;
+  border: none;
+  width: 30%;
+  padding: 6px 10px;
+  color: #ffffff;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: all 0.4s;
+  border: 1px solid #ffffff;
+  outline: 0;
+}
+
+.button:hover {
+  border: 1px solid rgb(155, 138, 138);
+  background-color: #ffffff;
+  color:  rgb(155, 138, 138);
+}
+
+.input {
+  border-radius: 4px;
+  border: 1px solid #2A2F35;
+  padding: 6px;
+  outline: 0;
+}
+
+.checkmark-button {
+height: 30px;
+width: 30px;
+border:1px solid green;
+color: white;
+background-color: white;
+border-radius: 50px;
+outline: 0;
+}
+
+  
+.remove-button {
+  height: 22px;
+  width: 20px;
+  border: 1px solid white;
+  padding: 1px;
+  border-radius: 5px;
+  text-shadow: 1px lightgray;
+  color: lightgray;
+  background-color: white;
+  font-size: 17px;
+}
+
+.remove-button:hover {
+ color: red;
+}
+  
+.deletion {
+  text-decoration: line-through;
+  text-align: center;
+}
+
+.full {
+  background-color: green;
+  background-position: 5px 4px ;
+  background-image: url("data:image/svg+xml,%3Csvg width='25' height='25' viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M5.414 11L4 12.414l5.414 5.414L20.828 6.414 19.414 5l-10 10z' fill='%23fff' fill-rule='nonzero'/%3E%3C/svg%3E ");
+}
